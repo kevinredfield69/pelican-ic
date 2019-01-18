@@ -1,0 +1,11 @@
+language: python
+branches:
+  only:
+  - master
+install:
+  - pip install pelican ghp-import markdown
+script:
+  - make publish github
+env:
+  global:
+    secure: iJkcAGO3NAmmYenODXAYle5xYrAq+FMEo+fTpR5R22HnhbmvrgjtYgq0QxHbQU7rEcZEIv4GQ8XEnLogHynUwJcO4cnmE1q0eRQYE8ex5cAjvoQFGBiOTm2Hs6POlycwUBRFWqy8ZHvEQDdEV3qx+Oo+QFqtJZIB3Hpmld3MnyvfXA3tlxo/do9MZmR5tonENBaP7W47ViC27NU+kau+uZJjhpGuzXd7AZJUmViyal4IyEv1cKUemqZqzLPAeLqPiEOTRYhvX3W0Mw0906vNLmi4WCxl++bo6qKI6lfZfYF2WHv256LfPl08aqKdfA67ffSNR8Ofhrm2GaPDNg7Z/QDbOGUWOSnQ70n1A+TpYhMKCQWpT7q0+3eNqa6GP37zRcTBU5mMIN+FVXKXKEVBjq+D6Q730ymU2jwbAB/BZxA22bTnL4ch9II/2L9PHxxqwLUlV5v6ssg5KNxI+wwYRfux5NU6VlDtFtbDc9E6q9JOFaPwaA7t64H29SoqM46ZCMSxsNis+NF1fLJ+nH/VhgFQac9TSBSEFMnTCnVQRduULdJsHURC8yq48kOltH4tOwyyJXi3gNcEHiSpdY+w9A3auw94iJ4Jex2HGx2Ly3IM37uWzfglKqcdjISJHXnx2azvwTyODXa1vJwJ2jpUJwb0ovtrMoLiA8DOwE4QKF8=
